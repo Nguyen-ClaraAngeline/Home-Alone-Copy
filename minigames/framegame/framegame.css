@@ -1,0 +1,94 @@
+
+
+
+
+.drop-zone {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    
+
+    background-image: url("assets/fond.png");
+    background-size: 1100px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-image: url("assets/background.png") ;
+    background-color: #000000;
+
+
+}
+
+
+.closebuttongame{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+
+
+
+
+
+.dropped-piece {
+    
+    position: absolute;
+    top: 100px;
+    width: 300px; /* Largeur de la pièce */
+    height: 300px; /* Hauteur de la pièce */
+}
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(18, 18, 18, 0.8);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: 'MaryKate', sans-serif;
+    font-size: 47px; 
+    text-align: center;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #8d2777;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'MaryKate', sans-serif;
+    font-size: 40px; 
+}
+
+.popup button:hover {
+    background: #600f59;
+}

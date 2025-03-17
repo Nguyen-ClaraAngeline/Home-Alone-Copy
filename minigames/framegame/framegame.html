@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page avec Barre d'Inventaire</title>
+    <link rel="stylesheet" href="../../common/inventaire/inventaire.css">
+    <link rel="stylesheet" href="framegame.css">
+    <link rel="stylesheet" href="../../common/room_style/room_style.css">
+</head>
+<body>
+
+    <div id="dropZone" class="drop-zone"></div>
+
+    <div id="exit-popup" class="popup hidden">
+        <p>YOU UNLOCKED THE DOOR. ARE YOU SURE YOU WANT TO LEAVE?</p>
+        <button onclick="proceedToExit()">pass throught the door</button>
+        <button onclick="closePopup()">go back to the hallway</button>
+    </div>
+
+    <button class="closebuttongame" onclick="togglePopup()">x</button>
+    <audio id="audio"autoplay src="../../common/soundeffet/test1.wav"></audio>
+
+
+
+    <script src="../../common/inventaire/inventaire.js"></script>
+    <script src="framegame.js"></script>
+    <script src="../../common/room_style/pop-up.js"></script>
+</body>
+</html>

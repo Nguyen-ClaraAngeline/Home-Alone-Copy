@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "piece1", "image_url": "assets/shadow.png", "class": "pieceframegame" },
+  { "id": 2, "name": "piece2", "image_url": "assets/clock.png", "class": "pieceframegame" },
+  { "id": 3, "name": "piece3", "image_url": "assets/teddybear.png", "class": "pieceframegame" },
+  { "id": 4, "name": "piece4", "image_url": "assets/knife.png", "class": "pieceframegame" },
+  { "id": 5, "name": "piece5", "image_url": "assets/key.png", "class": "pieceframegame" },
+  { "id": 6, "name": "piece6", "image_url": "assets/text.png", "class": "pieceframegame" }
+]
