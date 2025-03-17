@@ -1,0 +1,7 @@
+[
+    { "name": "cardFlip", "hint": "birthday", "image" : "../minigames/framegame/assets/key.png" },
+    { "name": "labyrinth", "hint": "brother", "image" : "../minigames/framegame/assets/knife.png" },
+    { "name": "puzzle", "hint": "parents", "image" : "../minigames/framegame/assets/teddybear.png" },
+    { "name": "gameplate", "hint": "disease", "image" : "../minigames/framegame/assets/knife.png" },
+    { "name": "hangman", "hint": "died", "image" : "../minigames/framegame/assets/clock.png" }
+  ]
